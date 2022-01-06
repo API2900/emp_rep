@@ -57,5 +57,7 @@ output application/json
 { "message" : "Added Successfully" }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
-	</flow>
+		<logger level="INFO" doc:name="Logger" doc:id="fb9204fe-4fcc-4185-8b61-d4ea72a6fe53" />
+	
+</flow>
 </mule>
