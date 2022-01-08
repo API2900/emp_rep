@@ -37,7 +37,7 @@ output application/json
 payload]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
-		<logger level="INFO" doc:name="Copy_of_Logger" doc:id="611ba760-a779-4f8f-b6b0-333c5d42b760" />
+		<logger level="INFO" doc:name="Copy_of_Logger" doc:id="611ba760-a779-4f8f-b6b0-333c5d42b760" message="End of process"/>
 	</flow>
 	<flow name="postEmployee" doc:id="887b2e7c-7925-4a92-a63a-7a7a8a261b73" >
 		<http:listener doc:name="Listener" doc:id="58bbf13e-2177-49fe-a0d0-c64cb7534d0a" config-ref="HTTP_Listener_config" path="/employee" outputMimeType="application/json" allowedMethods="POST"/>
